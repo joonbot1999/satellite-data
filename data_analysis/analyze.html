@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang=en>
+  <head>
+    <title>Satellite Analysis</title>
+    <link rel="stylesheet" href="analyze.css" />
+    <script src="analyze.js"></script>
+    <script src="http://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Satellite Distribution</h1>
+      <p>PLEASE REMEMBER TO DELETE YOUR DATA BEFORE YOU EXIT OUT</p>
+      <div id="file">
+        <form method="post" action="upload.php" enctype="multipart/form-data">
+          <input type="file" name="file">
+          <input type="submit" value="upload">
+        </form>
+      </div>
+      <div id="rend-button">
+        <button type="button" id="render">RENDER</button>
+      </div>
+      <div id="buttons" class="hidden">
+        <button type="button" id="russia">GLONASS</button>
+        <button type="button" id="usa">GPS</button>
+        <button type="button" id="all">All</button>
+        <button type="button" id="delete">DELETE</button>
+      </div>
+      <div id="tester" style="width: 600px; height: 250px;"></div>
+    </header>
+    <main>
+  </body>
+</html>

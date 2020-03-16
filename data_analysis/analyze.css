@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+}
+
+#file {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+#buttons {
+  padding-top: 90px;
+}
+
+#delete {
+  margin-top: 90px;
+}
+
+.hidden {
+  display: none;
+}
